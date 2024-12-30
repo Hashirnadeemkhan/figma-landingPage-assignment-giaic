@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import apple from "/public/Apple.png"
-import apps from "/public/apps.png"
+import apps from "/public/Apps.png"
 import google from "/public/Google.png"
 import slack from "/public/slack.png"
 import microsoft from "/public/Microsoft.png"
