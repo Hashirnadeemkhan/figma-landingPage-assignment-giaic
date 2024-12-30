@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import apple from "/public/apple.png"
+import apple from "/public/Apple.png"
 import apps from "/public/apps.png"
 import google from "/public/Google.png"
 import slack from "/public/slack.png"
@@ -13,7 +13,7 @@ export default function Sponsers() {
         <h2 className="text-3xl font-bold mb-6">
           Our sponsors <span className="text-yellow-500">_</span>
         </h2>
-        <div className="flex justify-center items-center gap-8">
+        <div className="flex justify-around items-center gap-8">
           <Image
             src={apple}
             alt="Apple"
@@ -23,20 +23,20 @@ export default function Sponsers() {
           <Image
             src={microsoft}
             alt="Microsoft"
-            width={80}
-            height={80}
+            width={200}
+            height={200}
           />
           <Image
             src={slack}
             alt="Slack"
-            width={80}
-            height={80}
+            width={200}
+            height={200}
           />
           <Image
             src={google}
             alt="Google"
-            width={80}
-            height={80}
+            width={200}
+            height={200}
           />
         </div>
       </section>

@@ -2,9 +2,9 @@ import Image from "next/image"
 import Link from "next/link"
 import { Facebook, Twitter, Linkedin } from 'lucide-react'
  import group from "/public/Group.png"; 
-  import window from "/public/Window.png"; 
+  import window from "/public/window.png"; 
    import androidLogo from "/public/android-logo.png"
-   import logo from "/public/logo.png"
+   import logo from "/public/Logo.png"
 
 const FooterSection=()=> {
   return (
